@@ -7,6 +7,7 @@ import java.util.HashMap;
 /**
  * This method returns a HashMap containing a status code and a message with the text "Hello World".
  *
+ *
  * @return A HashMap containing a status code and a message with the text "Hello World".
  */
 @RestController
