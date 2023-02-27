@@ -13,7 +13,7 @@ import java.util.HashMap;
 @RestController
 public class MainController {
     @GetMapping(path = "/api")
-    public HashMap<String,String> printHello(){
+    public HashMap<String,String> printHello() throws Exception{
         HashMap<String,String> response = new HashMap<String,String>();
         response.put("status", "200");
         response.put("message", "Hello World");
